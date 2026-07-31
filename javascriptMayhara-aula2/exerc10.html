@@ -4,16 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>10</title>
         <script>
-        //    Peça os três lados de um triângulo e classifique-o como:
-
-        // Equilátero: todos os lados iguais;
-        // Isósceles: dois lados iguais;
-        // Escaleno: todos os lados diferentes.
-        //    Questão 10
+            //    Questão 10
             var trian1 = Number(prompt('1 lado: '))
             var trian2 = Number(prompt('2 lado: '))
             var trian3 = Number(prompt('3 lado: '))
-             if
+            if (trian1 == trian2 && trian2 == trian3){
+                alert('Triângulo Equilátero')
+            } else if (trian1 == trian2 || trian1 == trian3 || trian2 == trian3){
+                alert('Triângulo Isósceles')
+            } else {
+                alert('Triângulo Escaleno')
+            }
 
 
            
