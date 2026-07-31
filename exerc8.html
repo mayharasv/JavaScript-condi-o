@@ -2,17 +2,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Documento</title>
+        <title>8</title>
         <script>
-        //    Solicite um número e informe se ele é:
 
-            // Múltiplo de 3;
-            // Múltiplo de 5;
-            // Múltiplo de 3 e 5;
-            // Não é múltiplo de nenhum deles.
+            // Questão 8
             var num = Number(prompt('Informe um número:'))
 
-            if (num )
+            if (num % 3 == 0 && num % 5 == 0){
+                alert('Múltiplo de 3 e 5')
+            } else if (num % 3 == 0){
+                alert('Múltiplo de 3')
+            } else if (num % 5 == 0){
+                alert('Múltiplo de 5')
+            } else {
+                alert('Não é múltiplo de nenhum deles')
+            }
 
 
            
